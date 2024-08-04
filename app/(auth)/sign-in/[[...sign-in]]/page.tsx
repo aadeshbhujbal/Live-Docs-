@@ -8,7 +8,7 @@ const SignInPage = () => {
       <div className="min-h-screen bg-gray-100">
         {/* Hero Section */}
         <header className="bg-dark-300 text-white py-20">
-          <div className="container mx-auto text-center">
+          <div className="container lg:max-w-7xl mx-auto text-center">
             <h1 className="text-4xl font-bold">Welcome to LiveDocs</h1>
             <p className="mt-4 text-xl">
               Real-Time Collaborative Document Editing
@@ -25,7 +25,7 @@ const SignInPage = () => {
 
         {/* Features Section */}
         <section className="py-20 bg-dark-200">
-          <div className="container mx-auto text-center">
+          <div className="container lg:max-w-7xl mx-auto text-center">
             <h2 className="text-3xl font-bold mb-10">Features</h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
               <div>
@@ -61,7 +61,7 @@ const SignInPage = () => {
 
         {/* How It Works Section */}
         <section className="bg-dark-200 py-20">
-          <div className="container mx-auto text-center">
+          <div className="containe lg:max-w-7xl mx-auto text-center">
             <h2 className="text-3xl font-bold mb-10">How It Works</h2>
             <div className="grid grid-cols-1 md:grid-cols-4 gap-10">
               <div>
@@ -92,7 +92,7 @@ const SignInPage = () => {
 
         {/* Screenshots or Demo Video Section */}
         <section className="py-20">
-          <div className="container mx-auto text-center">
+          <div className="container lg:max-w-7xl mx-auto text-center">
             <h2 className="text-3xl font-bold mb-10">Screenshots/Demo</h2>
             <div className="flex justify-center">
               {/* Replace with actual screenshots or demo video */}
@@ -109,7 +109,7 @@ const SignInPage = () => {
 
         {/* About Us Section */}
         <section className="py-20 bg-dark-500">
-          <div className="container mx-auto text-center">
+          <div className="container lg:max-w-7xl mx-auto text-center">
             <h2 className="text-3xl font-bold mb-10">About Us</h2>
             <p>
               LiveDocs was developed by a team of passionate developers with a
